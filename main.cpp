@@ -168,10 +168,10 @@ bool IsPrime(int num)
             return false;
         }
     }
-
-    // 素数である
     return true;
 }
+
+
 
 ${cplusplus.declare_constants(data)}
 % if topcoder.is_topcoder(data):
